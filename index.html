@@ -1,33 +1,15 @@
 <!doctype html>
-<html lang="tr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex">
-  <title>Asia Follower — Gizlilik Politikası Taslağı</title>
-  <style>
-    body { max-width: 760px; margin: 40px auto; padding: 0 20px; font: 17px/1.7 system-ui, sans-serif; color: #19313b; }
-    aside { padding: 20px; background: #fff1d6; border-left: 5px solid #a65d00; }
-    a { color: #126575; }
-  </style>
-</head>
-<body>
-  <h1>Asia Follower — Gizlilik Politikası Taslağı</h1>
-  <p>İnceleme tarihi: 30 Ekim 2026 · Paket: com.asiafollower.app</p>
-  <aside>Bu metin tamamlanmamış bir inceleme taslağıdır. Geçerli, tamamlanmış bir gizlilik politikası olarak Google Play'e sunulmamalıdır. Sunucu davranışı ve veri saklama bilgileri henüz doğrulanmamıştır.</aside>
-  <h2>Uygulama ve iletişim</h2>
-  <p>Asia Follower, asiafollower.com sitesini Android WebView içinde gösterir. İletişim: <a href="mailto:tokafatma997@gmail.com">tokafatma997@gmail.com</a>.</p>
-  <h2>Doğrulanan veri akışları</h2>
-  <ul>
-    <li>Girilen Instagram kullanıcı adı, profil sorgulaması için sitenin /get_instagram_profile.php adresine gönderilir. Yazma sırasında otomatik sorgu başlayabilir.</li>
-    <li>Profil adı, fotoğraf bağlantısı ve varsa takipçi sayısı sunucu yanıtından görüntülenir.</li>
-    <li>Sayfa yolu, önceki sayfanın adresi ve zaman damgası /t.php adresine gönderilir.</li>
-    <li>Başarılı sorgudan sonra kullanıcı adı, zaman damgası ve kaynak bilgisi goodfollowers.in/user/ adresine URL parametreleriyle aktarılır. Android uygulaması harici HTTPS sayfasını sistem tarayıcısında açar.</li>
-  </ul>
-  <h2>Android uygulamasının ayarları</h2>
-  <p>Uygulama internet erişimi kullanır. Kamera, mikrofon, konum veya rehber özelliği eklenmemiştir. JavaScript açıktır; dosya erişimi, DOM storage ve üçüncü taraf çerezleri kapalıdır. Bu, birinci taraf çerezlerinin veya sunucu kayıtlarının bulunmadığı anlamına gelmez.</p>
-  <h2>Tamamlanması gereken bilgiler</h2>
-  <p>Hizmet işletmecisi, hosting ve profil sorgulama sağlayıcıları, sunucu kayıtları, çerezler, işleme amaçları, veri alıcıları, saklama süreleri, silme yöntemleri ve hedef yaş grubu doğrulanmalıdır. Bu bilgiler tamamlanmadan veri toplanmadığı veya paylaşılmadığı iddia edilmemektedir.</p>
-  <p>Teknik incelemenin ayrıntıları: <a href="privacy-audit.md">veri incelemesi</a> ve <a href="privacy-policy-draft.md">politika taslağı</a>.</p>
-</body>
-</html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Asia Follower — Gizlilik ve Veri Akışı</title><style>body{max-width:800px;margin:40px auto;padding:0 20px;font:17px/1.7 system-ui;color:#19313b}a{color:#126575}aside{padding:16px;background:#fff1d6}</style></head><body>
+<h1>Asia Follower — Gizlilik ve Veri Akışı</h1><p>Güncelleme: 31 Ekim 2026 · Android paketi: com.asiafollower.app</p>
+<p>Asia Follower, asiafollower.com sitesini Android WebView içinde sunar. Bu açıklama uygulamadaki veri akışını ve harici hizmete geçişi kapsar. Destek ve gizlilik iletişimi: <a href="mailto:tokafatma997@gmail.com">tokafatma997@gmail.com</a>.</p>
+<h2>Profil sorgulama ve veri aktarımı</h2><p>Girdiğiniz Instagram kullanıcı adı, profil sorgulaması için HTTPS üzerinden asiafollower.com/get_instagram_profile.php adresine gönderilir. Yazmayı tamamlamanız beklenmeden otomatik sorgu başlayabilir. Sunucudan dönen profil adı, profil fotoğrafı bağlantısı ve varsa takipçi sayısı görüntülenir. Profil fotoğrafı, yanıtta belirtilen resim sunucusundan yüklenebilir. İlk sorgu Instagram şifresi istemez.</p>
+<p>Sayfa yolu, önceki sayfa adresi (referrer) ve zaman damgası /t.php adresine gönderilir. Sunucuyla bağlantı kurulurken IP adresi ve HTTP isteğinin teknik bilgileri sunucu tarafından alınır.</p>
+<h2>Asiafollower tarafındaki saklama</h2><p>İşletmecinin 31 Ekim 2026 tarihli açık beyanına göre, sorgulanan kullanıcı adları, /t.php bilgileri ve HTTP sunucu/hosting erişim ve hata kayıtları (IP, istek URL'si ve zaman dahil) saklanmaz. Bu açıklama bağımsız bir sunucu denetimi sonucu değildir; verilerin hizmeti sunmak üzere aktarılmadığı veya işlenmediği anlamına gelmez. Kaydedilmediği belirtilen bu veriler için varsayımsal bir saklama süresi verilmemektedir.</p>
+<h2>GoodFollowers yönlendirmesi</h2><p>Başarılı sorgudan sonra sayfa, kısa bir geri sayımla https://goodfollowers.in/user/ adresine geçer. URL parametrelerinde kullanıcı adı, zaman damgası ve source=asiafollower kaynak bilgisi yer alır. Android uygulaması bu harici HTTPS bağlantısını sistem tarayıcısında açar. Hedef site ek yönlendirmeler yapabilir; incelenen akışta kullanıcı adı içeren bir analiz sayfası açılmıştır.</p>
+<p>Asiafollower takipçi hizmetine devam etme amacıyla bu yönlendirmeyi sunar. Hedef sayfalarda profil analizi, ücretsiz ve ücretli plan teklifleri bulunmaktadır. İnceleme sırasında kayıt bağlantısı 404 hatası vermiştir; bu, hesap oluşturma veya ödeme bulunmadığı anlamına gelmez. Satın alma, abonelik, teslim veya hesap oluşturma işleminin başarıyla çalıştığı bu belgeyle iddia edilmez. Android uygulamasının yerel kodunda ayrı bir kayıt, şifre veya ödeme ekranı yoktur.</p>
+<h2>Harici ölçüm ve alıcılar</h2><p>GoodFollowers ana sayfasında Google Analytics, Google Ads dönüşüm ölçümü, Ahrefs Analytics ve kendi ziyaret/oturum takip betiği gözlenmiştir. Sayfa URL'si, referrer, ziyaret/oturum tanımlayıcıları ve etkileşim olayları için kod bulunur. Kullanıcı adını içeren URL de harici sayfada işlenebilir. Bunlar doğrudan Asiafollower WebView sayfasında aynı araçların çalıştığı veya reklam gösterildiği iddiası değildir.</p>
+<p>Harici hizmetin yayımladığı açıklama, profil ve kullanım verilerinin hizmet sunumu, analiz ve güvenlik gibi amaçlarla işlendiğini ve teknik sağlayıcılara aktarılabildiğini belirtir. Harici işletmecinin gerçek saklama süreleri, tüm alt sağlayıcıları ve silme işlemleri Asia Follower tarafından doğrulanmış değildir. Asiafollower için yukarıda verilen saklanmama beyanı GoodFollowers, analiz sağlayıcıları veya tarayıcı kayıtlarına genişletilmez. <a href="https://goodfollowers.in/privacy.html">GoodFollowers gizlilik açıklaması</a> ve <a href="https://goodfollowers.in/terms.html">hizmet şartları</a> ayrıca geçerlidir.</p>
+<h2>Uygulamanın ayarları ve cihazda kalan bilgiler</h2><p>Tek Android izni internet erişimidir. JavaScript açıktır; dosya/içerik erişimi, DOM storage, konum erişimi ve üçüncü taraf WebView çerezleri kapalıdır. Kamera, mikrofon, rehber veya reklam kimliği özelliği eklenmemiştir. HTTP ve karışık içerik engellenir; SSL hataları iptal edilir. Cihazdan uygulama sunucusuna aktarım HTTPS kullanır. Bu ayarlar harici hizmetlerin tüm güvenlik uygulamalarını garanti etmez. WebView veya tarayıcı önbelleği, birinci taraf çerezleri ve tarayıcı geçmişi ayrı davranışlar gösterebilir.</p>
+<h2>Başvurular ve silme talepleri</h2><p>Gizlilik veya silme taleplerinizi destek e-postasına iletebilirsiniz. E-postayla gönderdiğiniz adres ve mesaj, talebi incelemek ve yanıtlamak için e-posta hizmetinde işlenir; uygulama e-postayı otomatik göndermez veya kullanıcı adınızı mesaja eklemez. Bu belge, harici işletmeci adına veri silme garantisi vermez. GoodFollowers, kendi politikasında hak talepleri için support@goodfollowers.in adresini belirtmektedir. Şifre veya gereksiz hassas bilgi göndermeyin.</p>
+<h2>Yaş ve çocuk güvenliği</h2><p>Uygulamanın hedef kitlesi 18 yaş ve üzeridir. Uygulamada “Gizlilik ve destek” menüsünden destek ve “Çocuk güvenliği bildirimi” ekranına erişilebilir. <a href="child-safety.html">Çocuk Güvenliği Standardı</a> bildirim ve müdahale sürecini açıklar.</p>
+<aside>Harici hesap/ödeme akışı ve üçüncü tarafların doğrulanmamış uygulamaları açıkça belirtilmiştir. Bu sayfanın yayımlanması, Google Play uygunluk onayı veya Veri Güvenliği formunun tamamlandığı anlamına gelmez.</aside></body></html>
